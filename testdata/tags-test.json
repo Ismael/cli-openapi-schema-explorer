@@ -1,0 +1,24 @@
+{
+  "openapi": "3.0.3",
+  "info": { "title": "Tags Test API", "version": "1.0.0" },
+  "tags": [
+    { "name": "Users", "description": "User management" },
+    { "name": "Admin" }
+  ],
+  "paths": {
+    "/users": {
+      "get": {
+        "summary": "List users",
+        "tags": ["Users"],
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/admin/settings": {
+      "get": {
+        "summary": "Get settings",
+        "tags": ["Admin"],
+        "responses": { "200": { "description": "OK" } }
+      }
+    }
+  }
+}

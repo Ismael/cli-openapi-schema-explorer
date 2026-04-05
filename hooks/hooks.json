@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "test -x ${CLAUDE_PLUGIN_ROOT}/bin/openapi-explorer || bash ${CLAUDE_PLUGIN_ROOT}/scripts/install.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "openapi-explorer",
+  "owner": {
+    "name": "Ismael Garrido"
+  },
+  "metadata": {
+    "description": "Token-efficient CLI for AI agents to progressively explore OpenAPI specs",
+    "version": "1.0.2"
+  },
+  "plugins": [
+    {
+      "name": "openapi-explorer",
+      "description": "Token-efficient CLI for AI agents to progressively explore OpenAPI specs",
+      "version": "1.0.2",
+      "source": "./",
+      "author": {
+        "name": "Ismael Garrido"
+      },
+      "repository": "https://github.com/Ismael/cli-openapi-schema-explorer",
+      "license": "MIT",
+      "keywords": ["openapi", "api", "swagger", "cli", "exploration"],
+      "category": "development"
+    }
+  ]
+}
